@@ -1,0 +1,196 @@
+.search-crypto {
+    margin: 20px auto 30px auto;
+    width: 250px;
+}
+
+.crypto-card-container {
+    min-height: 65vh !important;
+
+    .crypto-card {
+        min-width: 250px;
+
+        .crypto-image {
+            width: 35px;
+        }
+    }
+}
+
+.coin-details-heading {
+    font-weight: 700 !important;
+    margin-top: 20px !important;
+    color: var(--pink) !important;
+}
+
+//CryptoDetails:
+.coin-detail-container {
+    margin: 20px;
+
+    //Heading-Crypto-details:
+    .coin-heading-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 1px solid var(--border);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        gap: 5px;
+
+        .coin-name {
+            font-weight: 800;
+            font-size: 1.8rem;
+            color: var(--pink);
+        }
+
+        .coin-heading-details {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+    }
+
+    //Select-chart:
+    .select-timeperiod {
+        width: 200px !important;
+        margin: 20px 0px 10px !important;
+    }
+
+    //Line Chart:
+    .chart-header {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        padding-top: 10px;
+
+        p {
+            color: #0071bd !important;
+            font-weight: 800;
+            font-size: 1.8rem;
+        }
+
+        .price-container {
+            display: block !important;
+
+            .price-change {
+                font-weight: 800 !important;
+
+            }
+
+            .current-price {
+                margin-top: 0px !important;
+                font-weight: 800 !important;
+            }
+        }
+    }
+
+    //Stats:
+    .stats-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+
+        //stats 1:
+        .coin-value-statistics {
+            display: block;
+            max-width: 450px;
+
+            .coin-details-heading {
+                font-weight: 700 !important;
+                margin-top: 20px !important;
+                color: var(--pink) !important;
+            }
+
+            p {
+                font-size: 1rem;
+                opacity: 0.8;
+                min-height: 40px;
+            }
+        }
+
+        .coin-stats {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border);
+            font-size: 1rem;
+            opacity: 0.9;
+            padding: 20px;
+
+            &:hover {
+                background-color: var(--bgSecondary);
+            }
+
+            .coin-stats-name {
+                display: flex;
+                gap: 10px;
+                font-size: 1rem;
+            }
+
+            .stats {
+                font-weight: 800;
+            }
+        }
+
+        //stats 2: 
+        .other-stats-info {
+            display: block;
+            min-width: 450px;
+            @extend .coin-value-statistics;
+        }
+    }
+
+    //Desc Link: 
+    .coin-desc-link {
+        display: flex;
+        gap: 40px;
+        margin-top: 40px;
+        @extend .coin-value-statistics;
+
+        .coin-desc {
+            flex: 0.5;
+
+            .coin-details-heading {
+                p {
+                    color: #000;
+                    font-weight: 300;
+                    font-size: 1rem;
+                    margin: 10px 0px;
+                }
+            }
+        }
+
+        .coin-links {
+            padding: 0px 20px;
+            flex: 0.5;
+
+            .coin-link {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid var(--border);
+                padding: 20px;
+
+                &:hover {
+                    background-color: var(--bgSecondary);
+                }
+
+                .link-name {
+                    text-transform: capitalize;
+                    font-size: 1rem;
+                }
+
+                a {
+                    color: var(--pink);
+                    font-weight: 700;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+//Path Exchanges:
+.exchanges-container {
+    margin: 20px;
+
+}

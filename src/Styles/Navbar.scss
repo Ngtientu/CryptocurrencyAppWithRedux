@@ -1,0 +1,49 @@
+.nav-container {
+    display: block;
+    background-color: rgb(0, 21, 41);
+    position: fixed;
+
+
+    .logo-container {
+        background-color: var(--theme);
+        display: flex;
+        padding: 10px;
+        padding-left: 20px;
+        margin-top: 20px;
+
+        .avatar {
+            margin-right: 10px;
+            font-size: 120%;
+            color: white;
+
+        }
+
+        .logo {
+            color: white;
+            padding: 10px 0px;
+
+            .link-logo {
+                color: white;
+                font-weight: 700;
+                font-size: 1.1em
+            }
+        }
+
+        .logo:hover {
+            color: #f5f9ff;
+            scale: 1.05;
+            transition: ease-in-out;
+        }
+    }
+
+    .menu {
+
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+
+        .menu-item {
+            margin-left: 5px;
+        }
+    }
+}
