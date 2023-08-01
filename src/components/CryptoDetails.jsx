@@ -42,7 +42,7 @@ const CryptoDetails = () => {
   const stats = [
     {
       title: "Price to USD ",
-      value: `$ ${cryptoDetails?.price && millify(cryptoDetails.price)}`,
+      value: `$ ${cryptoDetails?.price && millify(cryptoDetails?.price)}`,
       icon: <DollarCircleOutlined />,
     },
     {
