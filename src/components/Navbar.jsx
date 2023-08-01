@@ -9,8 +9,7 @@ import {
   FundOutlined,
   MenuOutlined,
 } from "@ant-design/icons";
-import icon from "../images/image.jpeg";
-import styled from "styled-components";
+
 import { CodeOutlined } from "@ant-design/icons";
 
 const Navbar = () => {
